@@ -39,12 +39,27 @@ To send verion/changes to github
 '''
 git push origin main
 '''
-API KEY-d0b5fdf2-975b-4edd-90bc-7985d5fae3dc
-EMIAL-saicharanreddychiluka@my.unt.edu
-APP NAME-mlregression-application
 
 Build docker image
 '''
 docker build -t <image_name>:<tagname> .
 ''''
-note:image 
+note:image name for docker image should be lower case
+
+To list docker images
+'''
+docker images
+'''
+
+To run docker image
+'''
+docker run -p 5000:5000 -e PORT=5000 170f54bb93cd
+'''
+To check running container in docker
+'''
+docker ps
+'''
+To stop docker container
+'''
+docker stop <container_id>
+'''
