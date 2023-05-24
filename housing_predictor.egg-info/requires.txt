@@ -1,6 +1,0 @@
-numpy
-Flask
-gunicorn
-typing
-pandas
-sklearn
