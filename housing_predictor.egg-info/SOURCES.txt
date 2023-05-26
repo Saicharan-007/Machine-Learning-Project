@@ -1,6 +1,12 @@
 README.md
 setup.py
 Housing/__init__.py
+Housing/component/__init__.py
+Housing/config/__init__.py
+Housing/entity/__init__.py
+Housing/exception/__init__.py
+Housing/logger/__init__.py
+Housing/pipeline/__init__.py
 housing_predictor.egg-info/PKG-INFO
 housing_predictor.egg-info/SOURCES.txt
 housing_predictor.egg-info/dependency_links.txt

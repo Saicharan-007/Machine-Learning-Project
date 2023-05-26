@@ -1,0 +1,7 @@
+[2023-05-26 12:14:53,106] werkzeug - WARNING - * Debugger is active!
+[2023-05-26 12:14:53,106] werkzeug - INFO - * Debugger PIN: 957-604-760
+[2023-05-26 12:27:43,332] werkzeug - INFO - * Detected change in 'C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\app.py', reloading
+error message: [We are testing custom exception]
+[2023-05-26 12:25:45,638] root - INFO -we are testing logging module
+[2023-05-26 12:25:45,641] werkzeug - INFO -127.0.0.1 - - [26/May/2023 12:25:45] "GET / HTTP/1.1" 200 -
+[2023-05-26 12:25:45,675] werkzeug - INFO -127.0.0.1 - - [26/May/2023 12:25:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
