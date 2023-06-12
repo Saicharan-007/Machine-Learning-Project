@@ -63,3 +63,9 @@ To stop docker container
 '''
 docker stop <container_id>
 '''
+
+install ipynb kernal
+'''
+pip install ipynkernel
+'''
+
