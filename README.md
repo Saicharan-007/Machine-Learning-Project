@@ -68,4 +68,6 @@ install ipynb kernal
 '''
 pip install ipynkernel
 '''
+Data Drift:
+When ypuy dataset stats gets changes we call it as data drift
 

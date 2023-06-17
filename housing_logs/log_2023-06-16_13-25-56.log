@@ -1,0 +1,3 @@
+[2023-06-16 13:25:59,474] root - INFO -Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-06-16 13:25:59,482] root - INFO -Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-06-16 13:25:59,482] root - ERROR -Error occured in scrip: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\config\configuration.py] at line number: [72] and eceptional block line number: [87] error message: ['schema_dir']
