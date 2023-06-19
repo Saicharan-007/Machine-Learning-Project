@@ -1,0 +1,10 @@
+[2023-06-19 16:03:21,836] numexpr.utils - INFO -Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-06-19 16:03:21,836] numexpr.utils - INFO -NumExpr defaulting to 8 threads.
+[2023-06-19 16:03:24,942] root - INFO -Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-06-19 16:03:24,951] root - INFO -Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-06-19 16:03:24,951] root - ERROR -
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\config\configuration.py ] at 
+        try block line number: [104] and exception block line number: [131] 
+        error message: ['add_bedroom_per_room']
+        
