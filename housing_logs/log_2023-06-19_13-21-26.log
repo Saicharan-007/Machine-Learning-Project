@@ -1,0 +1,45 @@
+[2023-06-19 13:21:27,153] numexpr.utils - INFO -Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-06-19 13:21:27,154] numexpr.utils - INFO -NumExpr defaulting to 8 threads.
+[2023-06-19 13:21:30,423] root - INFO -Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-06-19 13:21:30,423] root - INFO -Data Ingestion Config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz', tgz_download_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\tgz_data', raw_data_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\raw_data', ingested_train_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\ingested_data\\train', ingested_test_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\ingested_data\\test')
+[2023-06-19 13:21:30,429] root - INFO -====================Data Ingestion log started.==================== 
+[2023-06-19 13:21:30,431] root - INFO -Downloading file from :[https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] into :[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\tgz_data\housing.tgz]
+[2023-06-19 13:21:30,675] root - INFO -File:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\tgz_data\housing.tgz] hass been downloaded successfully.
+[2023-06-19 13:21:30,678] root - INFO -Extracting tgz file: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\tgz_data\housing.tgz] into dir: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\raw_data]
+[2023-06-19 13:21:30,688] root - INFO -Extracting completed
+[2023-06-19 13:21:30,688] root - INFO -Reading CSV file:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\raw_data\housing.csv]
+[2023-06-19 13:21:30,726] root - INFO -Splitting data into traina and test
+[2023-06-19 13:21:30,737] root - INFO -Exorting training dataset to file:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\ingested_data\train\housing.csv]
+[2023-06-19 13:21:30,837] root - INFO -Exporting test dataset to file: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-06-19-13-21-26\ingested_data\test\housing.csv]
+[2023-06-19 13:21:30,870] root - INFO -Data Ingestion Artifact:[DataIngestionArtifact(train_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\ingested_data\\train\\housing.csv', test_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-06-19-13-21-26\\ingested_data\\test\\housing.csv', is_ingested=True, message='Data ingestion completed successfully.')]
+[2023-06-19 13:21:30,870] root - INFO -====================Data Ingestion log completed.==================== 
+
+
+[2023-06-19 13:21:30,870] root - INFO -Checking if train and test file is exists
+[2023-06-19 13:21:30,876] root - INFO -Is train and test file exists?-> True
+[2023-06-19 13:21:30,917] root - ERROR -
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\pipeline\pipeline.py ] at 
+        try block line number: [47] and exception block line number: [50] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\pipeline\pipeline.py ] at 
+        try block line number: [30] and exception block line number: [32] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\component\data_validation.py ] at 
+        try block line number: [106] and exception block line number: [116] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\component\data_validation.py ] at 
+        try block line number: [96] and exception block line number: [100] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\component\data_validation.py ] at 
+        try block line number: [67] and exception block line number: [79] 
+        error message: [Report.run() takes 1 positional argument but 3 were given]
+        ]
+        ]
+        ]
+        ]
+        
