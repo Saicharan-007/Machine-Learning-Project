@@ -40,12 +40,12 @@ def load_numpy_array_data(file_path:str)->np.array:
     """
     try:
         with open(file_path,'rb') as file_obj:
-            return np.load(file_obj)
+            return np.load(file_obj,obj)
     
     except Exception as e:
         raise HousingException(e,sys) from e
 
-def save_object(file_path:str):
+def save_object(file_path:str,obj):
     """
     file_path:str
     obj:Any sort of object

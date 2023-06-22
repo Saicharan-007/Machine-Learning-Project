@@ -11,22 +11,24 @@ columns:
   ocean_proximity: category
 
 numerical_columns:
-  -longitude
-  -latitude
-  -housing_median_age
-  -total_rooms
-  -total_bedrooms
-  -population
-  -households
-  -median_income
+  - longitude
+  - latitude
+  - housing_median_age
+  - total_rooms
+  - total_bedrooms
+  - population
+  - households
+  - median_income
+
+
 
 categorical_columns:
-  -ocean_proximity
+  - ocean_proximity
 
-target_columns:
-  -median_house_values
 
-target_column: median_house_value
+
+
+target_columns: median_house_value
 
 domain_value:
   ocean_proximity:
@@ -35,3 +37,4 @@ domain_value:
     - ISLAND
     - NEAR BAY
     - NEAR OCEAN
+
