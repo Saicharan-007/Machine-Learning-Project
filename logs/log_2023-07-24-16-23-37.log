@@ -1,0 +1,105 @@
+[2023-07-24 16:23:54,754]^;INFO^;183^;configuration.py^;get_training_pipeline_config()^;Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-07-24 16:23:54,756]^;INFO^;110^;pipeline.py^;run_pipeline()^;Pipeline Starting
+[2023-07-24 16:23:54,756]^;INFO^;124^;pipeline.py^;run_pipeline()^;Pipeline experiment:Experiment(experiment_id='52901d2c-6c08-4890-99f3-a818142f5200', initalization_timestamp='2023-07-24-16-23-37', artifact_time_stamp='2023-07-24-16-23-37', running_status=True, start_time=datetime.datetime(2023, 7, 24, 16, 23, 54, 756996), stop_time=None, execution_time=None, message='Pipeline has been started', experiment_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\experiment\\experiment.csv', accuracy=None, is_model_accepted=None)
+[2023-07-24 16:23:54,769]^;INFO^;56^;configuration.py^;get_data_ingestion_config()^;Data Ingestion Config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz', tgz_download_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\tgz_data', raw_data_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\raw_data', ingested_train_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\ingested_data\\train', ingested_test_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\ingested_data\\test')
+[2023-07-24 16:23:54,769]^;INFO^;14^;data_ingestion.py^;__init__()^;====================Data Ingestion log started.==================== 
+[2023-07-24 16:23:54,769]^;INFO^;35^;data_ingestion.py^;download_housing_data()^;Downloading file from :[https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] into :[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\tgz_data\housing.tgz]
+[2023-07-24 16:23:54,914]^;INFO^;37^;data_ingestion.py^;download_housing_data()^;File:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\tgz_data\housing.tgz] hass been downloaded successfully.
+[2023-07-24 16:23:54,914]^;INFO^;50^;data_ingestion.py^;extract_tgz_file()^;Extracting tgz file: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\tgz_data\housing.tgz] into dir: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\raw_data]
+[2023-07-24 16:23:54,938]^;INFO^;53^;data_ingestion.py^;extract_tgz_file()^;Extracting completed
+[2023-07-24 16:23:54,938]^;INFO^;66^;data_ingestion.py^;split_data_as_train_test()^;Reading CSV file:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\raw_data\housing.csv]
+[2023-07-24 16:23:54,975]^;INFO^;75^;data_ingestion.py^;split_data_as_train_test()^;Splitting data into traina and test
+[2023-07-24 16:23:54,992]^;INFO^;90^;data_ingestion.py^;split_data_as_train_test()^;Exorting training dataset to file:[C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\ingested_data\train\housing.csv]
+[2023-07-24 16:23:55,125]^;INFO^;94^;data_ingestion.py^;split_data_as_train_test()^;Exporting test dataset to file: [C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\data_ingestion\2023-07-24-16-23-37\ingested_data\test\housing.csv]
+[2023-07-24 16:23:55,157]^;INFO^;102^;data_ingestion.py^;split_data_as_train_test()^;Data Ingestion Artifact:[DataIngestionArtifact(train_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\ingested_data\\train\\housing.csv', test_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_ingestion\\2023-07-24-16-23-37\\ingested_data\\test\\housing.csv', is_ingested=True, message='Data ingestion completed successfully.')]
+[2023-07-24 16:23:55,157]^;INFO^;118^;data_ingestion.py^;__del__()^;====================Data Ingestion log completed.==================== 
+
+
+[2023-07-24 16:23:55,161]^;INFO^;29^;data_validation.py^;is_train_test_file_exists()^;Checking if train and test file is exists
+[2023-07-24 16:23:55,161]^;INFO^;40^;data_validation.py^;is_train_test_file_exists()^;Is train and test file exists?-> True
+[2023-07-24 16:23:57,528]^;INFO^;114^;data_validation.py^;initiate_data_validation()^;Data Validation artifact: DataValidationArtifact(schema_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\config\\schema.yaml', report_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_validation\\2023-07-24-16-23-37\\report.json', report_page_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_validation\\2023-07-24-16-23-37\\report.html', is_validated=True, message='Data Validation perfomed sucessfully')
+[2023-07-24 16:23:57,528]^;INFO^;139^;configuration.py^;get_data_transformation_config()^;Data transformation config: DataTransformationConfig(add_bedroom_per_room=True, transformed_train_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\transformed_data\\train', transformed_test_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\transformed_data\\test', preprocessed_object_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\preprocessed\\preprocessed.pkl')
+[2023-07-24 16:23:57,528]^;INFO^;96^;data_transformation.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-24 16:23:57,528]^;INFO^;149^;data_transformation.py^;initiate_data_transformation()^;Obtaining preprocessing object.
+[2023-07-24 16:23:57,534]^;INFO^;133^;data_transformation.py^;get_data_transformer_object()^;Categorical columns: ['ocean_proximity']
+[2023-07-24 16:23:57,534]^;INFO^;134^;data_transformation.py^;get_data_transformer_object()^;Numerical columns: ['longitude', 'latitude', 'housing_median_age', 'total_rooms', 'total_bedrooms', 'population', 'households', 'median_income']
+[2023-07-24 16:23:57,534]^;INFO^;153^;data_transformation.py^;initiate_data_transformation()^;Obtaining training and test file path.
+[2023-07-24 16:23:57,534]^;INFO^;160^;data_transformation.py^;initiate_data_transformation()^;Loading training and test data as pandas dataframe.
+[2023-07-24 16:23:57,620]^;INFO^;170^;data_transformation.py^;initiate_data_transformation()^;Splitting input and target feature from training and testing dataframe.
+[2023-07-24 16:23:57,623]^;INFO^;178^;data_transformation.py^;initiate_data_transformation()^;Applying preprocessing object on training dataframe and testing dataframe
+[2023-07-24 16:23:57,679]^;INFO^;196^;data_transformation.py^;initiate_data_transformation()^;Saving transformed training and testing array.
+[2023-07-24 16:23:57,687]^;INFO^;203^;data_transformation.py^;initiate_data_transformation()^;Saving preprocessing object.
+[2023-07-24 16:23:57,694]^;INFO^;213^;data_transformation.py^;initiate_data_transformation()^;Data transformationa artifact: DataTransformationArtifact(is_transformed=True, message='Data transformation successfull.', transformed_train_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\transformed_data\\train\\housing.npz', transformed_test_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\transformed_data\\test\\housing.npz', preprocessed_object_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\data_transformation\\2023-07-24-16-23-37\\preprocessed\\preprocessed.pkl')
+[2023-07-24 16:23:57,694]^;INFO^;219^;data_transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-07-24 16:23:57,694]^;INFO^;168^;configuration.py^;get_model_trainer_config()^;Model trainer config: ModelTrainerConfig(trained_model_file_path='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact\\model_trainer\\2023-07-24-16-23-37\\trained_model\\model.pkl', base_accuracy=0.6, model_config_file_path='config\\model.yaml')
+[2023-07-24 16:23:57,694]^;INFO^;45^;model_trainer.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model trainer log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-24 16:23:57,694]^;INFO^;53^;model_trainer.py^;initiate_model_trainer()^;Loading transformed training dataset
+[2023-07-24 16:23:57,712]^;INFO^;57^;model_trainer.py^;initiate_model_trainer()^;Loading transformed testing dataset
+[2023-07-24 16:23:57,716]^;INFO^;61^;model_trainer.py^;initiate_model_trainer()^;Splitting training and testing input and target feature
+[2023-07-24 16:23:57,716]^;INFO^;65^;model_trainer.py^;initiate_model_trainer()^;Extracting model config file path
+[2023-07-24 16:23:57,716]^;INFO^;68^;model_trainer.py^;initiate_model_trainer()^;Initializing model factory class using above model config file: config\model.yaml
+[2023-07-24 16:23:57,724]^;INFO^;73^;model_trainer.py^;initiate_model_trainer()^;Expected accuracy: 0.6
+[2023-07-24 16:23:57,725]^;INFO^;75^;model_trainer.py^;initiate_model_trainer()^;Initiating operation model selecttion
+[2023-07-24 16:23:57,725]^;INFO^;343^;model_factory.py^;get_best_model()^;Started Initializing model from config file
+[2023-07-24 16:23:57,725]^;INFO^;188^;model_factory.py^;class_for_name()^;Executing command: from <module 'sklearn.linear_model' from 'C:\\Users\\cscrs\\anaconda3\\lib\\site-packages\\sklearn\\linear_model\\__init__.py'> import LinearRegression
+[2023-07-24 16:23:57,727]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ LinearRegression().fit_intercept=True
+[2023-07-24 16:23:57,791]^;INFO^;188^;model_factory.py^;class_for_name()^;Executing command: from <module 'sklearn.ensemble' from 'C:\\Users\\cscrs\\anaconda3\\lib\\site-packages\\sklearn\\ensemble\\__init__.py'> import RandomForestRegressor
+[2023-07-24 16:23:57,791]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ RandomForestRegressor().min_samples_leaf=2
+[2023-07-24 16:23:57,792]^;INFO^;345^;model_factory.py^;get_best_model()^;Initialized model: [InitalizedModelDetail(model_serial_number='module_0', model=LinearRegression(), param_grid_search={'fit_intercept': [True, False]}, model_name='sklearn.linear_model.LinearRegression'), InitalizedModelDetail(model_serial_number='module_1', model=RandomForestRegressor(min_samples_leaf=2), param_grid_search={'min_samples_lead': [4, 6, 12], 'n_estimators': [100, 200], 'bootstrap': [True, False], 'oob_score': [True, False], 'max_depth': [2, 4, 6]}, model_name='sklearn.ensemble.RandomForestRegressor')]
+[2023-07-24 16:23:57,792]^;INFO^;188^;model_factory.py^;class_for_name()^;Executing command: from <module 'sklearn.model_selection' from 'C:\\Users\\cscrs\\anaconda3\\lib\\site-packages\\sklearn\\model_selection\\__init__.py'> import GridSearchCV
+[2023-07-24 16:23:57,792]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ GridSearchCV(estimator=LinearRegression(),
+             param_grid={'fit_intercept': [True, False]}).cv=5
+[2023-07-24 16:23:57,794]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ GridSearchCV(cv=5, estimator=LinearRegression(),
+             param_grid={'fit_intercept': [True, False]}).verbose=2
+[2023-07-24 16:23:57,794]^;INFO^;221^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f"Training LinearRegression Started." <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-24 16:23:57,951]^;INFO^;188^;model_factory.py^;class_for_name()^;Executing command: from <module 'sklearn.model_selection' from 'C:\\Users\\cscrs\\anaconda3\\lib\\site-packages\\sklearn\\model_selection\\__init__.py'> import GridSearchCV
+[2023-07-24 16:23:57,959]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ GridSearchCV(estimator=RandomForestRegressor(min_samples_leaf=2),
+             param_grid={'bootstrap': [True, False], 'max_depth': [2, 4, 6],
+                         'min_samples_lead': [4, 6, 12],
+                         'n_estimators': [100, 200],
+                         'oob_score': [True, False]}).cv=5
+[2023-07-24 16:23:57,959]^;INFO^;167^;model_factory.py^;update_property_of_class()^;Executing:$ GridSearchCV(cv=5, estimator=RandomForestRegressor(min_samples_leaf=2),
+             param_grid={'bootstrap': [True, False], 'max_depth': [2, 4, 6],
+                         'min_samples_lead': [4, 6, 12],
+                         'n_estimators': [100, 200],
+                         'oob_score': [True, False]}).verbose=2
+[2023-07-24 16:23:57,959]^;INFO^;221^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f"Training RandomForestRegressor Started." <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-07-24 16:23:57,959]^;ERROR^;18^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\pipeline\pipeline.py ] at 
+        try block line number: [130] and exception block line number: [150] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\pipeline\pipeline.py ] at 
+        try block line number: [77] and exception block line number: [79] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\component\model_trainer.py ] at 
+        try block line number: [76] and exception block line number: [112] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\entity\model_factory.py ] at 
+        try block line number: [346] and exception block line number: [354] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\entity\model_factory.py ] at 
+        try block line number: [299] and exception block line number: [307] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\entity\model_factory.py ] at 
+        try block line number: [285] and exception block line number: [289] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\entity\model_factory.py ] at 
+        try block line number: [222] and exception block line number: [233] 
+        error message: [Invalid parameter 'min_samples_lead' for estimator RandomForestRegressor(max_depth=2, min_samples_leaf=2). Valid parameters are: ['bootstrap', 'ccp_alpha', 'criterion', 'max_depth', 'max_features', 'max_leaf_nodes', 'max_samples', 'min_impurity_decrease', 'min_samples_leaf', 'min_samples_split', 'min_weight_fraction_leaf', 'n_estimators', 'n_jobs', 'oob_score', 'random_state', 'verbose', 'warm_start'].]
+        ]
+        ]
+        ]
+        ]
+        ]
+        ]
+        
+[2023-07-24 16:23:57,967]^;INFO^;115^;model_trainer.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model trainer log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 

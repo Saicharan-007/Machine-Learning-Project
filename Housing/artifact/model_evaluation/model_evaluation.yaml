@@ -1,0 +1,11 @@
+best_model:
+  model_path: C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\model_trainer\2023-07-24-17-10-42\trained_model\model.pkl
+history:
+  2023-07-24-16-57-24:
+    model_path: C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\model_trainer\2023-07-24-16-54-50\trained_model\model.pkl
+  2023-07-24-17-00-21:
+    model_path: C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\model_trainer\2023-07-24-16-57-24\trained_model\model.pkl
+  2023-07-24-17-05-31:
+    model_path: C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\model_trainer\2023-07-24-17-00-21\trained_model\model.pkl
+  2023-07-24-17-10-42:
+    model_path: C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\housing\artifact\model_trainer\2023-07-24-17-05-31\trained_model\model.pkl

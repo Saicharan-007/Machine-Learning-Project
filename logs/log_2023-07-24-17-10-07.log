@@ -1,0 +1,8 @@
+[2023-07-24 17:10:24,126]^;INFO^;209^;configuration.py^;get_training_pipeline_config()^;Training pipeline config: TrainingPipelineConfig(artifact_dir='C:\\Users\\cscrs\\OneDrive\\Documents\\Machine Learning\\Machine-Learning-Project\\housing\\artifact')
+[2023-07-24 17:10:24,126]^;INFO^;110^;pipeline.py^;run_pipeline()^;Pipeline Starting
+[2023-07-24 17:10:24,126]^;ERROR^;18^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\cscrs\OneDrive\Documents\Machine Learning\Machine-Learning-Project\Housing\pipeline\pipeline.py ] at 
+        try block line number: [113] and exception block line number: [150] 
+        error message: [Experiment.__new__() got an unexpected keyword argument 'initalization_timestamp']
+        

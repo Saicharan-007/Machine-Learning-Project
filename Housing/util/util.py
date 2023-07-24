@@ -5,6 +5,20 @@ import numpy as np
 import dill
 import pandas as pd
 from Housing.constant import *
+def write_yaml_file(file_path:str,data:dict=None):
+    """
+    Create yaml file 
+    file_path: str
+    data: dict
+    """
+    try:
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path,"w") as yaml_file:
+            if data is not None:
+                yaml.dump(data,yaml_file)
+    except Exception as e:
+        raise HousingException(e,sys)
+
 def read_yaml_file(file_path:str)->dict:
     """
     Reads a YAML file and returns the contains as a dictionary.
@@ -40,7 +54,7 @@ def load_numpy_array_data(file_path:str)->np.array:
     """
     try:
         with open(file_path,'rb') as file_obj:
-            return np.load(file_obj,obj)
+            return np.load(file_obj)
     
     except Exception as e:
         raise HousingException(e,sys) from e
