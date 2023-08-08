@@ -10,7 +10,7 @@ class HousingException(Exception):
 
     @staticmethod
     def get_detail_error_message(error_message:Exception,error_detail:sys)->str:
-        """
+        """"
         error_message: Exception Object
         error_detail: object of sys module
         """
